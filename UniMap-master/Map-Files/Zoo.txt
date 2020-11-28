@@ -1,0 +1,537 @@
+
+
+//        Instructions for Config file
+
+
+
+// All blank lines and lines beginning with "//" are ignored
+// Create each building in the following format/ with each property on a new line:
+
+// length of the window is 1300
+// height is 800
+
+
+//    Building Name
+//    Abbreviation
+//    Connections (the names of the connected buildings separated by a "/")
+//    X Coordinate
+//    Y Coordinate
+//    Height (width)
+//    Length
+// At the end of each building put "END_OF_BUILDING"
+
+
+
+// Start of building files
+
+Buffalo
+Buffalo
+Otter/Ox
+0
+400
+40
+40
+END_OF_BUILDING
+
+
+Otter
+Otter
+Buffalo/Crane/Deer
+100
+400
+40
+40
+END_OF_BUILDING
+
+Ox
+Ox
+Buffalo/Elk
+200
+300
+40
+40
+END_OF_BUILDING
+
+Crane
+Crane
+Otter/Deer
+220
+200
+40
+40
+END_OF_BUILDING
+
+Deer
+Deer
+Crane/Moose/Elk/Ram/Otter
+210
+480
+40
+40
+END_OF_BUILDING
+
+Elk
+Elk
+Ox/Ram/Deer/Moose
+290
+250
+40
+40
+END_OF_BUILDING
+
+Moose
+Moose
+Deer/Wolf/Squirl/Elk/Ram
+390
+530
+40
+40
+END_OF_BUILDING
+
+Wolf
+Wolf
+Moose/Brown Bear
+340
+430
+40
+40
+END_OF_BUILDING
+
+Brown Bear
+Brown Bear
+Squirl/Wolf
+450
+460
+40
+40
+END_OF_BUILDING
+
+Squirl
+Squirl
+Brown Bear/Black Bear/Moose
+470
+550
+40
+40
+END_OF_BUILDING
+
+Black Bear
+Black Bear
+Squirl/Lynx
+500
+440
+40
+40
+END_OF_BUILDING
+
+Lynx
+Lynx
+Black Bear/Path
+550
+460
+40
+40
+END_OF_BUILDING
+
+Ram
+Ram
+Owl/Penguin/Elk/Deer/Moose
+400
+270
+40
+40
+END_OF_BUILDING
+
+Owl
+Owl
+Ram/Penguin
+390
+170
+40
+40
+END_OF_BUILDING
+
+Penguin
+Penguin
+Owl/Mountain Goat/Ram
+500
+210
+40
+40
+END_OF_BUILDING
+
+Mountain Goat
+Mountain Goat
+Penguin/Black Ram
+460
+300
+40
+40
+END_OF_BUILDING
+
+Black Ram
+Black Ram
+Mountain Goat/Path
+520
+290
+40
+40
+END_OF_BUILDING
+
+Path
+Path
+Black Ram/Lynx/Dino1/Dino2/Path2
+650
+500
+500
+10
+END_OF_BUILDING
+
+Path2
+Path
+Zaboomafoo/Wild Pig/Girrafe/Orangitang/Path
+650
+750
+200
+10
+END_OF_BUILDING
+
+Dino1
+Dino1
+Path/Dino2/Dino3
+700
+160
+40
+40
+END_OF_BUILDING
+
+Dino2
+Dino2
+Path/Dino1/Dino3
+780
+200
+40
+40
+END_OF_BUILDING
+
+Dino3
+Dino3
+Dino1/Dino2/Dino4/Dino5
+860
+150
+40
+40
+END_OF_BUILDING
+
+Dino4
+Dino4
+Dino3/Dion6
+860
+200
+40
+40
+END_OF_BUILDING
+
+
+Dino5
+Dino5
+Dino3/Dino6
+940
+140
+40
+40
+END_OF_BUILDING
+
+Dino6
+Dino6
+Dino5/Dino4
+1000
+175
+40
+40
+END_OF_BUILDING
+
+Zaboomafoo
+Zaboomafoo
+Hippo/Path2
+600
+580
+40
+40
+END_OF_BUILDING
+
+Hippo
+Hippo
+Zaboomafoo/Girrafe
+550
+620
+40
+40
+END_OF_BUILDING
+
+Girrafe
+Girrafe
+Hippo/Osterage/Path2
+600
+650
+40
+40
+END_OF_BUILDING
+
+Osterage
+Osterage
+Girrafe/Zebra
+600
+700
+40
+40
+END_OF_BUILDING
+
+Zebra
+Zebra
+Osterage/Lion
+550
+720
+40
+40
+END_OF_BUILDING
+
+Lion
+Lion
+Zebra
+500
+650
+40
+40
+END_OF_BUILDING
+
+Bird
+Bird
+Wild Pig
+860
+540
+40
+40
+END_OF_BUILDING
+
+Wild Pig
+Wild Pig
+Path2/Lama/Gorilla/Bird
+840
+600
+40
+40
+END_OF_BUILDING
+
+Lama
+Lama
+Wild Pig/Flammingo/Fish
+900
+600
+40
+40
+END_OF_BUILDING
+
+Flammingo
+Flammingo
+Lama/Gorilla
+900
+680
+40
+40
+END_OF_BUILDING
+
+Gorilla
+Gorilla
+Flammingo/Orangitang/Wild Pig
+780
+680
+40
+40
+END_OF_BUILDING
+
+Orangitang
+Orangitang
+Gorilla/Path2
+760
+760
+40
+40
+END_OF_BUILDING
+
+Fish
+Fish
+Bugs/Dragon/Monkey/Lama
+1000
+610
+40
+40
+END_OF_BUILDING
+
+Bugs
+Bugs
+Fish
+1000
+700
+40
+40
+END_OF_BUILDING
+
+Dragon
+Dragon
+Fish/Rino
+1000
+550
+40
+40
+END_OF_BUILDING
+
+Rino
+Rino
+Dragon/Leapord
+1080
+580
+40
+40
+END_OF_BUILDING
+
+Leapord
+Leapord
+Rino/Monkey/OrangePanda
+1160
+600
+40
+40
+END_OF_BUILDING
+
+Monkey
+Monkey
+Leapord/Fish
+1160
+660
+40
+40
+END_OF_BUILDING
+
+OrangePanda
+OrangePanda
+Leapord/Tiger
+1220
+600
+40
+40
+END_OF_BUILDING
+
+Tiger
+Tiger
+OrangePanda/OldGoat
+1249
+650
+40
+40
+END_OF_BUILDING
+
+OldGoat
+OldGoat
+Tiger
+1249
+720
+40
+40
+END_OF_BUILDING
+
+
+END_OF_All_BUILDINGS
+
+
+// Start of settings
+
+
+// Enter the building color as a HEX code:
+102 102 153
+
+// Enter the path color as a HEX code:
+193 110 110
+
+// Enter the background color as a Hex code:
+0 204 102
+
+
+// Is there a map legend? (true/false)
+true
+
+//Add parameters for Map legend location from top left corner (x y length height)
+0 0 350 270
+
+//bathroom near otter
+toilet.png 100 400
+
+//library near otter
+library.png 100 350
+
+//theatre1
+theatre.png 300 420
+
+//theatre2
+theatre.png 470 290
+
+//bathroom near penguin
+toilet.png 510 200
+
+//food under pengeuin 
+food.png 550 150
+
+//bathroom under pengeuin 
+toilet.png 530 150
+
+//shop under pengeuin 
+shop.png 570 150
+
+//mall under pengeuin 
+mall.png 570 120
+
+//hospital under pengeuin 
+hospital.png 530 120
+
+//tourist under pengeuin 
+tourist.png 550 120
+
+//tourist1
+tourist.png 550 500
+
+//tourist2
+tourist.png 750 200
+
+//tourist3 
+tourist.png 900 860
+
+//tourist4
+tourist.png 550 400
+
+//tourist5
+tourist.png 200 240
+
+//tourist6
+tourist.png 1000 700
+
+//tourist7
+tourist.png 750 600
+
+//tourist8 
+tourist.png 900 680
+
+//shoppingcentre1
+mall.png 500 500
+
+//shoppingcentre2
+mall.png 500 350
+
+//shoppingcentre3
+mall.png 1000 600
+
+//shoppingcentre4
+mall.png 1200 700
+
+//shoppingcentre5
+mall.png 210 470
+

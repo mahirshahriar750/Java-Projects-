@@ -1,0 +1,85 @@
+//        Instructions for Config file
+
+
+
+// All blank lines and lines beginning with "//" are ignored
+// Create each building in the following format/ with each property on a new line:
+
+// length of the window is 1300
+// height is 800
+
+
+//    Building Name
+//    Abbreviation
+//    Connections (the names of the connected buildings separated by a "/")
+//    X Coordinate
+//    Y Coordinate
+//    Height
+//    Length
+// At the end of each building put "END_OF_BUILDING"
+
+// Once all buildings have been entered, enter the settings
+// 	The building color as a HEX code
+// 	The path color as a HEX code
+// 	The background color as a Hex code
+// 	Is there a map legend? (true/false)
+//	parameters for Map legend location from top left corner (x y length height)
+
+//	Add any additional icons (name_of_icon.png x y) 
+
+
+
+
+
+
+// Start of building files
+
+
+
+
+b1
+Some Building
+b2
+200
+200
+80
+80
+END_OF_BUILDING
+
+
+b2
+Another Building
+b1
+400
+400
+80
+80
+END_OF_BUILDING
+
+
+END_OF_All_BUILDINGS
+
+
+// Start of settings
+
+
+// Enter the building color as a HEX code:
+20 20 20
+
+// Enter the path color as a HEX code:
+10 10 10
+
+// Enter the background color as a Hex code:
+100 100 100
+
+// Is there a map legend? (true/false)
+true
+
+
+//Add parameters for Map legend location from top left corner (x y length height)
+900 50 350 480
+
+
+
+
+atm.png 450 450
